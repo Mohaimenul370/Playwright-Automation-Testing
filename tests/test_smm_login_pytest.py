@@ -4,8 +4,8 @@
 # def test_login(page: Page):
 #     page.goto("http://172.16.1.28:8053/authentication/login")
 
-#     page.fill('input[name="Enter your Email Address"]', 'test_demo01@gmail.com')
-#     page.fill('input[name="Enter your password Address"]', 'Test@123')
+#     page.fill('input[name="Enter your Email Address"]', '**email**')
+#     page.fill('input[name="Enter your password Address"]', '**password**')
 #     page.click('input[type="submit"]')
 
 #     page.wait_for_load_state('networkidle')
